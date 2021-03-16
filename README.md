@@ -1,2 +1,2 @@
 # XPFit
-3rd Year Diss - A Leaderboard centred fitness tracking application
+This project was built for a third year Computer Science dissertation at Newcastle University. It has functionality to log cardio and strength workouts, which then converts these into xp values and adds them to the user profile. A leaderboard system is implemented using Firebase which shows which users have the most XP. This was designed around Old School Runescape's exponential XP system.
