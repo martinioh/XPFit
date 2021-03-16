@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashboardActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="92dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/welcomeuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="105dp" />
+
+    <Button
+        android:id="@+id/leaderboard"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/buttons"
+        android:text="Leaderboard"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/fitnessactivities"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/leaderboard"
+        android:layout_alignLeft="@+id/leaderboard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/buttons"
+        android:text="Fitness Activities"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/myprofile"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/fitnessactivities"
+        android:layout_alignLeft="@+id/fitnessactivities"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/buttons"
+        android:text="My Profile"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:layout_alignStart="@+id/myprofile"
+        android:layout_alignLeft="@+id/myprofile"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/buttons"
+        android:text="Log Out"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

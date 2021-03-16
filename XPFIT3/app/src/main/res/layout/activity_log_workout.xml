@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:layout_weight="1"
+    tools:context=".LogWorkoutActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="fill_parent"
+        android:layout_height="92dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/logworkouttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Log a Workout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/background_dark" />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="Submit"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+        android:textColor="@android:color/white" />
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <ToggleButton
+        android:id="@+id/cardiostrengthbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:text="ToggleButton"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+        android:textOff="Cardio"
+        android:textOn="Strength" />
+
+
+    <EditText
+        android:id="@+id/inputworkoutname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ems="10"
+        android:hint="Workout Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputdistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ems="10"
+        android:hint="Distance (km)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Time (minutes)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputreps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Number of Reps"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/inputweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Weight (kg)"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/inputtypeoflift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+</LinearLayout>
+
+</LinearLayout>

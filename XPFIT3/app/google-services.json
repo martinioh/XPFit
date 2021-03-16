@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "343102751250",
+    "firebase_url": "https://xpfit-9ae55.firebaseio.com",
+    "project_id": "xpfit-9ae55",
+    "storage_bucket": "xpfit-9ae55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343102751250:android:bf91f04d38516767",
+        "android_client_info": {
+          "package_name": "com.example.xpfit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343102751250-r4curdjq0elel6co8a1qp3vu317af7ap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.xpfit",
+            "certificate_hash": "686ad4dc8d7cdbb4f2480926d012623e9b5eb188"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASoFuJgOP8Qpa98RYzSbjmWsqR7nJ__Zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343102751250-f4p4eghi2otoafeif5j5ckdh7gs72ep2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

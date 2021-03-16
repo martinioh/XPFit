@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewPastWorkoutActivity">
+
+
+    <Button
+        android:id="@+id/cardio"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="339dp"
+        android:background="@drawable/buttons"
+        android:text="Cardio"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/strength"
+        android:layout_width="272dp"
+        android:layout_height="62dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/buttons"
+        android:text="Strength"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/buttons"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="99dp" />
+</RelativeLayout>

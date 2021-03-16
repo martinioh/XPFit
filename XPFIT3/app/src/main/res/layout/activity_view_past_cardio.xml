@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewPastCardioActivity">
+
+    <ListView
+        android:id="@+id/viewlast5cardioworkouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="10dp"
+        android:divider="@android:color/background_dark"
+        android:dividerHeight="5dp"
+        android:paddingLeft="2dp" />
+
+
+
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/buttons"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Inverse"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/errormessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No current workouts. Please log some to view." />
+
+
+</RelativeLayout>
